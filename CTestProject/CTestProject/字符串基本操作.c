@@ -46,15 +46,53 @@ void cntStrLen() {
     printf("buf3 size:%d \n", size); //5
 }
 
+
+//去除字符串前后的空格
+char * trimSpace(char * inBuf, char ** outBuf) {
+//    if (inBuf == NULL) {
+//        return -1;
+//    }
+    
+    char * retBuf = (char *)malloc(1024);
+    char * frontInBuf = inBuf;
+    char * trailInBuf = frontInBuf + strlen(inBuf) - 1;
+    
+    while (*frontInBuf == ' ') {
+        frontInBuf++;
+    }
+    
+    while (*(trailInBuf-1) == ' ') {
+        trailInBuf--;
+    }
+    
+    char * tmpRetBuf = retBuf;
+    while (frontInBuf != trailInBuf) {
+        *retBuf++ = *frontInBuf++;
+    }
+    *retBuf = '\0';
+    *outBuf = tmpRetBuf;
+    return tmpRetBuf;
+}
+
 int main(int argc, const char * argv[]) {
     
     // insert code here...
-    char buf[] = "a1234567";
-    char * to = (char *)malloc(sizeof(buf));
+//    char buf[] = "a1234567";
+//    char * to = (char *)malloc(sizeof(buf));
+//    revserString(buf, to);
+//    printf("to===%s\n", to);
     
-    revserString(buf, to);
-    printf("to===%s\n", to);
-
+    char buf[] = " adbdfd ";
+    char * retBuf = NULL;
+    char * retBuf2 = NULL;
+    printf("before trim space==%s\n", buf);
+    printf("length==%ld\n", strlen(buf));
+    printf("sizeof==%ld\n", sizeof(buf));
+    retBuf = trimSpace(buf, &retBuf2);
+    printf("after trim space==%s\n", retBuf);
+    printf("after trim space==%s\n", retBuf2);
+    printf("length==%ld\n", strlen(retBuf));
+    printf("sizeof==%ld\n", sizeof(retBuf));
     printf("hello...\n");
     return 0;
 }
