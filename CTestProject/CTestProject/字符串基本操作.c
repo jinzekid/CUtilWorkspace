@@ -207,7 +207,7 @@ int createStr(char ***p, char *str, int num) {
   return 0;
 }
 
-int main(int argc, const char *argv[]) {
+int main22(int argc, const char *argv[]) {
 
   // insert code here...
   //    char buf[] = "a1234567";

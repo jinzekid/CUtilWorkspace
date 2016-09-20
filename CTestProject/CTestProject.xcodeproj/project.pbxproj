@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		854892BE1D8103B90000897F /* 字符串复制方法.c in Sources */ = {isa = PBXBuildFile; fileRef = 854892BD1D8103B90000897F /* 字符串复制方法.c */; };
 		854892C81D81065E0000897F /* 字符串基本操作.c in Sources */ = {isa = PBXBuildFile; fileRef = 854892C71D81065E0000897F /* 字符串基本操作.c */; };
+		85FEA4A61D90CEAB009A7361 /* 指针测试.c in Sources */ = {isa = PBXBuildFile; fileRef = 85FEA4A51D90CEAB009A7361 /* 指针测试.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,7 @@
 		854892BA1D8103B90000897F /* CTestProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CTestProject; sourceTree = BUILT_PRODUCTS_DIR; };
 		854892BD1D8103B90000897F /* 字符串复制方法.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "字符串复制方法.c"; sourceTree = "<group>"; };
 		854892C71D81065E0000897F /* 字符串基本操作.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "字符串基本操作.c"; sourceTree = "<group>"; };
+		85FEA4A51D90CEAB009A7361 /* 指针测试.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "指针测试.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			children = (
 				854892BD1D8103B90000897F /* 字符串复制方法.c */,
 				854892C71D81065E0000897F /* 字符串基本操作.c */,
+				85FEA4A51D90CEAB009A7361 /* 指针测试.c */,
 			);
 			path = CTestProject;
 			sourceTree = "<group>";
@@ -122,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				854892C81D81065E0000897F /* 字符串基本操作.c in Sources */,
+				85FEA4A61D90CEAB009A7361 /* 指针测试.c in Sources */,
 				854892BE1D8103B90000897F /* 字符串复制方法.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
