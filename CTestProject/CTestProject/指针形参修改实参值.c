@@ -8,26 +8,24 @@
 
 #include <stdio.h>
 
-void onePrt(int *p) {
+void onePtr(int *p) {
   int num = 500;
   p = &num;
   printf("p==%p,*p==%d\n", p, *p);
 }
 
-void twoPrt(int **p) { **p = 200; }
+void twoPtr(int **p) {
+  **p = 400;
+}
 
-int main(int argc, const char *argv[]) {
-
+int main33(int argc, const char *argv[]) {
   int i = 100;
   int *p = &i;
   *p = 200;
-  int *twoP = NULL;
-
-  onePrt(p);
+  onePtr(p);
   printf("after onePrt p==%p,*p==%d,i==%d\n", p, *p, i);
-  onePrt(twoP);
-  printf("after twoPrt p==%p,*p==%d,i==%d\n", p, *p, i);
-  ;
+  twoPtr(&p);
+  printf("after twoPrt p==%p,*p==%d,i==%d\n", &p, *p, i);
   printf("hello...\n");
   return 0;
 }

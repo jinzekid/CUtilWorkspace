@@ -9,7 +9,12 @@
 /* Begin PBXBuildFile section */
 		854892BE1D8103B90000897F /* 字符串复制方法.c in Sources */ = {isa = PBXBuildFile; fileRef = 854892BD1D8103B90000897F /* 字符串复制方法.c */; };
 		854892C81D81065E0000897F /* 字符串基本操作.c in Sources */ = {isa = PBXBuildFile; fileRef = 854892C71D81065E0000897F /* 字符串基本操作.c */; };
-		85FEA4A61D90CEAB009A7361 /* 指针测试.c in Sources */ = {isa = PBXBuildFile; fileRef = 85FEA4A51D90CEAB009A7361 /* 指针测试.c */; };
+		855E3AE61D94C5980008BB18 /* 字符串数组的拼接和排序.c in Sources */ = {isa = PBXBuildFile; fileRef = 855E3AE51D94C5980008BB18 /* 字符串数组的拼接和排序.c */; };
+		85FADCAF1DA0915B00469CEC /* 字符串的出现次数.c in Sources */ = {isa = PBXBuildFile; fileRef = 85FADCAE1DA0915B00469CEC /* 字符串的出现次数.c */; };
+		85FADCB11DA0A9C800469CEC /* 去除字符串前后的空格.c in Sources */ = {isa = PBXBuildFile; fileRef = 85FADCB01DA0A9C800469CEC /* 去除字符串前后的空格.c */; };
+		85FADCB31DA0DAC200469CEC /* 字符串和数组的属性.c in Sources */ = {isa = PBXBuildFile; fileRef = 85FADCB21DA0DAC200469CEC /* 字符串和数组的属性.c */; };
+		85FADCB51DA0DE5900469CEC /* 结构体类型定义以及变量定义.c in Sources */ = {isa = PBXBuildFile; fileRef = 85FADCB41DA0DE5900469CEC /* 结构体类型定义以及变量定义.c */; };
+		85FEA4A61D90CEAB009A7361 /* 指针形参修改实参值.c in Sources */ = {isa = PBXBuildFile; fileRef = 85FEA4A51D90CEAB009A7361 /* 指针形参修改实参值.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,7 +33,12 @@
 		854892BA1D8103B90000897F /* CTestProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CTestProject; sourceTree = BUILT_PRODUCTS_DIR; };
 		854892BD1D8103B90000897F /* 字符串复制方法.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "字符串复制方法.c"; sourceTree = "<group>"; };
 		854892C71D81065E0000897F /* 字符串基本操作.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "字符串基本操作.c"; sourceTree = "<group>"; };
-		85FEA4A51D90CEAB009A7361 /* 指针测试.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "指针测试.c"; sourceTree = "<group>"; };
+		855E3AE51D94C5980008BB18 /* 字符串数组的拼接和排序.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "字符串数组的拼接和排序.c"; sourceTree = "<group>"; };
+		85FADCAE1DA0915B00469CEC /* 字符串的出现次数.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "字符串的出现次数.c"; sourceTree = "<group>"; };
+		85FADCB01DA0A9C800469CEC /* 去除字符串前后的空格.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "去除字符串前后的空格.c"; sourceTree = "<group>"; };
+		85FADCB21DA0DAC200469CEC /* 字符串和数组的属性.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "字符串和数组的属性.c"; sourceTree = "<group>"; };
+		85FADCB41DA0DE5900469CEC /* 结构体类型定义以及变量定义.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "结构体类型定义以及变量定义.c"; sourceTree = "<group>"; };
+		85FEA4A51D90CEAB009A7361 /* 指针形参修改实参值.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "指针形参修改实参值.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,9 +71,14 @@
 		854892BC1D8103B90000897F /* CTestProject */ = {
 			isa = PBXGroup;
 			children = (
+				85FADCB21DA0DAC200469CEC /* 字符串和数组的属性.c */,
 				854892BD1D8103B90000897F /* 字符串复制方法.c */,
 				854892C71D81065E0000897F /* 字符串基本操作.c */,
-				85FEA4A51D90CEAB009A7361 /* 指针测试.c */,
+				85FEA4A51D90CEAB009A7361 /* 指针形参修改实参值.c */,
+				855E3AE51D94C5980008BB18 /* 字符串数组的拼接和排序.c */,
+				85FADCAE1DA0915B00469CEC /* 字符串的出现次数.c */,
+				85FADCB01DA0A9C800469CEC /* 去除字符串前后的空格.c */,
+				85FADCB41DA0DE5900469CEC /* 结构体类型定义以及变量定义.c */,
 			);
 			path = CTestProject;
 			sourceTree = "<group>";
@@ -125,8 +140,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				854892C81D81065E0000897F /* 字符串基本操作.c in Sources */,
-				85FEA4A61D90CEAB009A7361 /* 指针测试.c in Sources */,
+				85FADCAF1DA0915B00469CEC /* 字符串的出现次数.c in Sources */,
+				85FADCB11DA0A9C800469CEC /* 去除字符串前后的空格.c in Sources */,
+				85FADCB31DA0DAC200469CEC /* 字符串和数组的属性.c in Sources */,
+				85FADCB51DA0DE5900469CEC /* 结构体类型定义以及变量定义.c in Sources */,
+				85FEA4A61D90CEAB009A7361 /* 指针形参修改实参值.c in Sources */,
 				854892BE1D8103B90000897F /* 字符串复制方法.c in Sources */,
+				855E3AE61D94C5980008BB18 /* 字符串数组的拼接和排序.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

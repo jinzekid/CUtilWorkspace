@@ -128,6 +128,7 @@ int getMem_Free0(char *p1) {
 //  tmp = (char *)malloc(sizeof(char *));
 //}
 
+//计算以sign分隔的字符串数组
 int cntStrWithSign(char *str, char *sign) {
   int cnt = 0;
   while (*str) {
@@ -139,31 +140,21 @@ int cntStrWithSign(char *str, char *sign) {
   return cnt + 1;
 }
 
-int create1PStr(char **p, char *str, int num) {
+//二级指针做输出
+int create2PStr(const char *in, char **out, int num) {
   char *pNewStr = NULL;
   pNewStr = (char *)malloc(sizeof(char) * (num));
   if (pNewStr == NULL)
     return -1;
   //拷贝字符串
-  strncpy(pNewStr, str, num - 1);
-  *p = pNewStr;
-  return 0;
-}
-
-int create2PStr(char *str, int num, char **newP) {
-  char *pNewStr = NULL;
-  pNewStr = (char *)malloc(sizeof(char) * (num));
-  if (pNewStr == NULL)
-    return -1;
-  //拷贝字符串
-  strncpy(pNewStr, str, num - 1);
-  *newP = pNewStr;
+  strncpy(pNewStr, in, num - 1);
+  *out = pNewStr;
   return 0;
 }
 
 //创建对应字符串
 int createStr(char ***p, char *str, int num) {
-  //手工二维内存
+  //手工分配二维内存
   char **p3 = NULL;
   char *tmp = NULL;
   char *tmp2 = NULL;
@@ -175,34 +166,31 @@ int createStr(char ***p, char *str, int num) {
 
   tmp = str;
   tmp2 = str;
-  while (*tmp) {
-    if (*tmp == ',') {
-      //简化版
-      create2PStr(tmp2, (cnt3 + 1), &(p3[index]));
+  do {
+    if (*tmp == ',' || *tmp == '\0') {
+      create2PStr(tmp2, &(p3[index]), (cnt3 + 1));
       tmp2 += (cnt3 + 1);
       cnt3 = 0;
       index++;
     } else {
       cnt3++;
     }
-    tmp++;
-  }
-
-  // 复杂版
-  // 1.创建内存空间
-  char *pNewStr = NULL;
-  create1PStr(&pNewStr, tmp2, (cnt3 + 1));
-  // 2.创建完后需要保存
-  p3[index] = pNewStr;
-  // 3.移动需要下一次拷贝的指针地址
-  tmp2 += (cnt3 + 1);
-  // 4.计数清零
-  cnt3 = 0;
-  // 5.指向下一个保存地址
-  index++;
-  printf("tmp==%s\n", pNewStr);
+  } while (*tmp++);
   ;
-
+//  // 复杂版
+//  // 1.创建内存空间
+//  char *pNewStr = NULL;
+//  create2PStr(tmp2,  &pNewStr, (cnt3 + 1));
+//  // 2.创建完后需要保存
+//  p3[index] = pNewStr;
+//  // 3.移动需要下一次拷贝的指针地址
+//  tmp2 += (cnt3 + 1);
+//  // 4.计数清零
+//  cnt3 = 0;
+//  // 5.指向下一个保存地址
+//  index++;
+//  printf("tmp==%s\n", pNewStr);
+//  ;
   *p = p3;
   return 0;
 }
