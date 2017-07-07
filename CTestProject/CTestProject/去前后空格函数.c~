@@ -1,0 +1,75 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/*获取字符串长度*/
+int bufLength(char* inBuf, int* len) {
+  int ret = 0;
+  int _len = 0;
+  if (inBuf == NULL) {
+    ret = -1;
+    *len = _len;
+    return ret;
+  }
+
+  while((*inBuf++ != '\0')) {
+    _len++;
+  }
+
+  *len = _len;
+  return ret;
+}
+
+/*移除字符串前后空格*/
+int trimSpace2(char* inBuf, char* outBuf){
+  int ret = 0;
+  if (inBuf == NULL) {
+    ret = -1;
+  }
+
+  char* tmp = inBuf;
+  
+  int len;
+  int i = 0;
+  int j = 0;
+  int cnt = 0;
+  
+  bufLength(inBuf, &len);
+  printf("len=%d\n", len);
+  tmp += (len-1);
+  //计算后面空格数
+  while(*tmp-- == ' ') {
+    j++;
+  }
+ 
+  tmp = inBuf;
+  //计算前面空格书
+  while(*tmp++ == ' ') {
+    i++;
+  }
+  
+  tmp = inBuf;
+  tmp += i;
+  while (cnt++ < (len - i - j)) {
+    *outBuf++ = *tmp++;
+  }
+  
+  *outBuf += '\0';
+  return ret;
+}
+
+int main(){
+  int ret = 0;
+  //主调函数分配内存
+  char buf[] = "   abcdefgddd   ";
+  char* retBuf = (char *)malloc(100);
+
+  ret = trimSpace2(buf, retBuf);
+  int len;
+  if (ret == 0) {
+    bufLength(retBuf, &len);
+    printf("retBuf==%s,length(retBuf)==%d\n", retBuf, len);
+  }
+  
+  printf("Hello world!\n");
+  return ret;
+}

@@ -7,13 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		85078E671F0DCB4000CECE8E /* other_08_链表基础.c in Sources */ = {isa = PBXBuildFile; fileRef = 85078E661F0DCB4000CECE8E /* other_08_链表基础.c */; };
+		85078E6B1F0DD9B300CECE8E /* timer_for_windows.c in Sources */ = {isa = PBXBuildFile; fileRef = 85078E6A1F0DD9B300CECE8E /* timer_for_windows.c */; };
+		85078E6D1F0DDB7900CECE8E /* timer_for_linux.c in Sources */ = {isa = PBXBuildFile; fileRef = 85078E6C1F0DDB7900CECE8E /* timer_for_linux.c */; };
+		851B7B7E1EBC0AD40007B731 /* other_02.c in Sources */ = {isa = PBXBuildFile; fileRef = 851B7B7D1EBC0AD40007B731 /* other_02.c */; };
+		85263E3B1DB049E80055559D /* MySocketClient.c in Sources */ = {isa = PBXBuildFile; fileRef = 85263E3A1DB049E80055559D /* MySocketClient.c */; };
+		85282C491ECECC430055C45D /* other_03.c in Sources */ = {isa = PBXBuildFile; fileRef = 85282C481ECECC430055C45D /* other_03.c */; };
+		8530C2B91EB5A13D005A7B9E /* 01_练习.c in Sources */ = {isa = PBXBuildFile; fileRef = 8530C2B81EB5A13D005A7B9E /* 01_练习.c */; };
+		8531430F1F033C2B00AC275B /* other_文件基本操作.c in Sources */ = {isa = PBXBuildFile; fileRef = 8531430E1F033C2B00AC275B /* other_文件基本操作.c */; };
+		8547965D1F01E81500CBCBD7 /* other_二级指针运用_合并并排序字符串.c in Sources */ = {isa = PBXBuildFile; fileRef = 8547965C1F01E81500CBCBD7 /* other_二级指针运用_合并并排序字符串.c */; };
 		854892BE1D8103B90000897F /* 字符串复制方法.c in Sources */ = {isa = PBXBuildFile; fileRef = 854892BD1D8103B90000897F /* 字符串复制方法.c */; };
 		854892C81D81065E0000897F /* 字符串基本操作.c in Sources */ = {isa = PBXBuildFile; fileRef = 854892C71D81065E0000897F /* 字符串基本操作.c */; };
+		8556E3BC1F0491F0007965FE /* other_配置文件读写.c in Sources */ = {isa = PBXBuildFile; fileRef = 8556E3BA1F0491F0007965FE /* other_配置文件读写.c */; };
 		855E3AE61D94C5980008BB18 /* 字符串数组的拼接和排序.c in Sources */ = {isa = PBXBuildFile; fileRef = 855E3AE51D94C5980008BB18 /* 字符串数组的拼接和排序.c */; };
+		857734C21EAD5FF000F70818 /* 01.c in Sources */ = {isa = PBXBuildFile; fileRef = 857734C11EAD5FF000F70818 /* 01.c */; };
+		8581A3F71DAF0256009CAB6E /* SocketClient.c in Sources */ = {isa = PBXBuildFile; fileRef = 8581A3F51DAF0256009CAB6E /* SocketClient.c */; };
+		858448E41EAAF60100B7BB98 /* sort.c in Sources */ = {isa = PBXBuildFile; fileRef = 858448E31EAAF60100B7BB98 /* sort.c */; };
+		858448E61EAB099300B7BB98 /* 指针数组.c in Sources */ = {isa = PBXBuildFile; fileRef = 858448E51EAB099300B7BB98 /* 指针数组.c */; };
+		858448E81EAB39C300B7BB98 /* 去前后空格函数.c in Sources */ = {isa = PBXBuildFile; fileRef = 858448E71EAB39C300B7BB98 /* 去前后空格函数.c */; };
+		85880F8E1EBAC1B600FBBB1C /* 02_练习.c in Sources */ = {isa = PBXBuildFile; fileRef = 85880F8D1EBAC1B600FBBB1C /* 02_练习.c */; };
+		85880F911EBAC1DD00FBBB1C /* increment.c in Sources */ = {isa = PBXBuildFile; fileRef = 85880F8F1EBAC1DD00FBBB1C /* increment.c */; };
+		85880F971EBAC25F00FBBB1C /* negate.c in Sources */ = {isa = PBXBuildFile; fileRef = 85880F951EBAC25F00FBBB1C /* negate.c */; };
+		85980FFE1EB96DF000EC1ADC /* 02_问题.c in Sources */ = {isa = PBXBuildFile; fileRef = 85980FFD1EB96DF000EC1ADC /* 02_问题.c */; };
+		859810051EB9AF1F00EC1ADC /* other_01.c in Sources */ = {isa = PBXBuildFile; fileRef = 859810041EB9AF1F00EC1ADC /* other_01.c */; };
+		85B3D74A1DAB9C1700019964 /* 测试.c in Sources */ = {isa = PBXBuildFile; fileRef = 85B3D7491DAB9C1700019964 /* 测试.c */; };
+		85B7BD5A1F009D87002596C2 /* other_结构体.c in Sources */ = {isa = PBXBuildFile; fileRef = 85B7BD591F009D87002596C2 /* other_结构体.c */; };
 		85FADCAF1DA0915B00469CEC /* 字符串的出现次数.c in Sources */ = {isa = PBXBuildFile; fileRef = 85FADCAE1DA0915B00469CEC /* 字符串的出现次数.c */; };
 		85FADCB11DA0A9C800469CEC /* 去除字符串前后的空格.c in Sources */ = {isa = PBXBuildFile; fileRef = 85FADCB01DA0A9C800469CEC /* 去除字符串前后的空格.c */; };
 		85FADCB31DA0DAC200469CEC /* 字符串和数组的属性.c in Sources */ = {isa = PBXBuildFile; fileRef = 85FADCB21DA0DAC200469CEC /* 字符串和数组的属性.c */; };
 		85FADCB51DA0DE5900469CEC /* 结构体类型定义以及变量定义.c in Sources */ = {isa = PBXBuildFile; fileRef = 85FADCB41DA0DE5900469CEC /* 结构体类型定义以及变量定义.c */; };
+		85FADCB71DA0FED900469CEC /* 结构体包含1级2级指针.c in Sources */ = {isa = PBXBuildFile; fileRef = 85FADCB61DA0FED900469CEC /* 结构体包含1级2级指针.c */; };
+		85FADCB91DA5CFA300469CEC /* 配置文件读写.c in Sources */ = {isa = PBXBuildFile; fileRef = 85FADCB81DA5CFA300469CEC /* 配置文件读写.c */; };
 		85FEA4A61D90CEAB009A7361 /* 指针形参修改实参值.c in Sources */ = {isa = PBXBuildFile; fileRef = 85FEA4A51D90CEAB009A7361 /* 指针形参修改实参值.c */; };
 /* End PBXBuildFile section */
 
@@ -30,14 +54,44 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		85078E661F0DCB4000CECE8E /* other_08_链表基础.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "other_08_链表基础.c"; sourceTree = "<group>"; };
+		85078E6A1F0DD9B300CECE8E /* timer_for_windows.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = timer_for_windows.c; sourceTree = "<group>"; };
+		85078E6C1F0DDB7900CECE8E /* timer_for_linux.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = timer_for_linux.c; sourceTree = "<group>"; };
+		851B7B7D1EBC0AD40007B731 /* other_02.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = other_02.c; sourceTree = "<group>"; };
+		85263E3A1DB049E80055559D /* MySocketClient.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MySocketClient.c; sourceTree = "<group>"; };
+		85282C481ECECC430055C45D /* other_03.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = other_03.c; sourceTree = "<group>"; };
+		8530C2B81EB5A13D005A7B9E /* 01_练习.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "01_练习.c"; sourceTree = "<group>"; };
+		8531430E1F033C2B00AC275B /* other_文件基本操作.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "other_文件基本操作.c"; sourceTree = "<group>"; };
+		8547965C1F01E81500CBCBD7 /* other_二级指针运用_合并并排序字符串.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "other_二级指针运用_合并并排序字符串.c"; sourceTree = "<group>"; };
 		854892BA1D8103B90000897F /* CTestProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CTestProject; sourceTree = BUILT_PRODUCTS_DIR; };
 		854892BD1D8103B90000897F /* 字符串复制方法.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "字符串复制方法.c"; sourceTree = "<group>"; };
 		854892C71D81065E0000897F /* 字符串基本操作.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "字符串基本操作.c"; sourceTree = "<group>"; };
+		8556E3BA1F0491F0007965FE /* other_配置文件读写.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "other_配置文件读写.c"; sourceTree = "<group>"; };
+		8556E3BB1F0491F0007965FE /* other_配置文件读写.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "other_配置文件读写.h"; sourceTree = "<group>"; };
 		855E3AE51D94C5980008BB18 /* 字符串数组的拼接和排序.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "字符串数组的拼接和排序.c"; sourceTree = "<group>"; };
+		857734C11EAD5FF000F70818 /* 01.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = 01.c; sourceTree = "<group>"; };
+		8581A3F51DAF0256009CAB6E /* SocketClient.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SocketClient.c; sourceTree = "<group>"; };
+		8581A3F61DAF0256009CAB6E /* SocketClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocketClient.h; sourceTree = "<group>"; };
+		858448E31EAAF60100B7BB98 /* sort.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sort.c; sourceTree = "<group>"; };
+		858448E51EAB099300B7BB98 /* 指针数组.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "指针数组.c"; sourceTree = "<group>"; };
+		858448E71EAB39C300B7BB98 /* 去前后空格函数.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "去前后空格函数.c"; sourceTree = "<group>"; };
+		85880F8D1EBAC1B600FBBB1C /* 02_练习.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "02_练习.c"; sourceTree = "<group>"; };
+		85880F8F1EBAC1DD00FBBB1C /* increment.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = increment.c; sourceTree = "<group>"; };
+		85880F901EBAC1DD00FBBB1C /* increment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = increment.h; sourceTree = "<group>"; };
+		85880F951EBAC25F00FBBB1C /* negate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = negate.c; sourceTree = "<group>"; };
+		85880F961EBAC25F00FBBB1C /* negate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = negate.h; sourceTree = "<group>"; };
+		85980FFD1EB96DF000EC1ADC /* 02_问题.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "02_问题.c"; sourceTree = "<group>"; };
+		859810041EB9AF1F00EC1ADC /* other_01.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = other_01.c; sourceTree = "<group>"; };
+		85B3D7491DAB9C1700019964 /* 测试.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "测试.c"; sourceTree = "<group>"; };
+		85B7BD591F009D87002596C2 /* other_结构体.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "other_结构体.c"; sourceTree = "<group>"; };
 		85FADCAE1DA0915B00469CEC /* 字符串的出现次数.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "字符串的出现次数.c"; sourceTree = "<group>"; };
 		85FADCB01DA0A9C800469CEC /* 去除字符串前后的空格.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "去除字符串前后的空格.c"; sourceTree = "<group>"; };
 		85FADCB21DA0DAC200469CEC /* 字符串和数组的属性.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "字符串和数组的属性.c"; sourceTree = "<group>"; };
 		85FADCB41DA0DE5900469CEC /* 结构体类型定义以及变量定义.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "结构体类型定义以及变量定义.c"; sourceTree = "<group>"; };
+		85FADCB61DA0FED900469CEC /* 结构体包含1级2级指针.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "结构体包含1级2级指针.c"; sourceTree = "<group>"; };
+		85FADCB81DA5CFA300469CEC /* 配置文件读写.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "配置文件读写.c"; sourceTree = "<group>"; };
+		85FADCBB1DA7266700469CEC /* cfg.ini */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cfg.ini; sourceTree = "<group>"; };
+		85FADCBC1DA728B300469CEC /* cfg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cfg; sourceTree = "<group>"; };
 		85FEA4A51D90CEAB009A7361 /* 指针形参修改实参值.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "指针形参修改实参值.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -52,9 +106,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		85078E681F0DD98D00CECE8E /* 工具 */ = {
+			isa = PBXGroup;
+			children = (
+				85078E691F0DD99C00CECE8E /* 计时器 */,
+			);
+			name = "工具";
+			sourceTree = "<group>";
+		};
+		85078E691F0DD99C00CECE8E /* 计时器 */ = {
+			isa = PBXGroup;
+			children = (
+				85078E6A1F0DD9B300CECE8E /* timer_for_windows.c */,
+				85078E6C1F0DDB7900CECE8E /* timer_for_linux.c */,
+			);
+			name = "计时器";
+			sourceTree = "<group>";
+		};
+		853A3A081EB752BD00BE8278 /* 第二章 */ = {
+			isa = PBXGroup;
+			children = (
+				85980FFD1EB96DF000EC1ADC /* 02_问题.c */,
+				85880F8D1EBAC1B600FBBB1C /* 02_练习.c */,
+				85880F8F1EBAC1DD00FBBB1C /* increment.c */,
+				85880F901EBAC1DD00FBBB1C /* increment.h */,
+				85880F951EBAC25F00FBBB1C /* negate.c */,
+				85880F961EBAC25F00FBBB1C /* negate.h */,
+			);
+			name = "第二章";
+			sourceTree = "<group>";
+		};
 		854892B11D8103B90000897F = {
 			isa = PBXGroup;
 			children = (
+				85FADCBB1DA7266700469CEC /* cfg.ini */,
+				85FADCBC1DA728B300469CEC /* cfg */,
 				854892BC1D8103B90000897F /* CTestProject */,
 				854892BB1D8103B90000897F /* Products */,
 			);
@@ -71,6 +157,12 @@
 		854892BC1D8103B90000897F /* CTestProject */ = {
 			isa = PBXGroup;
 			children = (
+				85078E681F0DD98D00CECE8E /* 工具 */,
+				859810031EB9AF0500EC1ADC /* 其它 */,
+				857734BF1EAD5F8400F70818 /* C和指针 */,
+				858448E71EAB39C300B7BB98 /* 去前后空格函数.c */,
+				858448E51EAB099300B7BB98 /* 指针数组.c */,
+				858448E31EAAF60100B7BB98 /* sort.c */,
 				85FADCB21DA0DAC200469CEC /* 字符串和数组的属性.c */,
 				854892BD1D8103B90000897F /* 字符串复制方法.c */,
 				854892C71D81065E0000897F /* 字符串基本操作.c */,
@@ -79,8 +171,56 @@
 				85FADCAE1DA0915B00469CEC /* 字符串的出现次数.c */,
 				85FADCB01DA0A9C800469CEC /* 去除字符串前后的空格.c */,
 				85FADCB41DA0DE5900469CEC /* 结构体类型定义以及变量定义.c */,
+				85FADCB61DA0FED900469CEC /* 结构体包含1级2级指针.c */,
+				85FADCB81DA5CFA300469CEC /* 配置文件读写.c */,
+				85B3D7491DAB9C1700019964 /* 测试.c */,
+				8581A3F51DAF0256009CAB6E /* SocketClient.c */,
+				8581A3F61DAF0256009CAB6E /* SocketClient.h */,
+				85263E3A1DB049E80055559D /* MySocketClient.c */,
 			);
 			path = CTestProject;
+			sourceTree = "<group>";
+		};
+		857734BF1EAD5F8400F70818 /* C和指针 */ = {
+			isa = PBXGroup;
+			children = (
+				85880F981EBAC75E00FBBB1C /* 第三章 */,
+				853A3A081EB752BD00BE8278 /* 第二章 */,
+				857734C01EAD5FC800F70818 /* 第一章 */,
+			);
+			name = "C和指针";
+			sourceTree = "<group>";
+		};
+		857734C01EAD5FC800F70818 /* 第一章 */ = {
+			isa = PBXGroup;
+			children = (
+				857734C11EAD5FF000F70818 /* 01.c */,
+				8530C2B81EB5A13D005A7B9E /* 01_练习.c */,
+			);
+			name = "第一章";
+			sourceTree = "<group>";
+		};
+		85880F981EBAC75E00FBBB1C /* 第三章 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "第三章";
+			sourceTree = "<group>";
+		};
+		859810031EB9AF0500EC1ADC /* 其它 */ = {
+			isa = PBXGroup;
+			children = (
+				859810041EB9AF1F00EC1ADC /* other_01.c */,
+				851B7B7D1EBC0AD40007B731 /* other_02.c */,
+				85282C481ECECC430055C45D /* other_03.c */,
+				85B7BD591F009D87002596C2 /* other_结构体.c */,
+				8547965C1F01E81500CBCBD7 /* other_二级指针运用_合并并排序字符串.c */,
+				8531430E1F033C2B00AC275B /* other_文件基本操作.c */,
+				8556E3BA1F0491F0007965FE /* other_配置文件读写.c */,
+				8556E3BB1F0491F0007965FE /* other_配置文件读写.h */,
+				85078E661F0DCB4000CECE8E /* other_08_链表基础.c */,
+			);
+			name = "其它";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,14 +279,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				857734C21EAD5FF000F70818 /* 01.c in Sources */,
+				858448E61EAB099300B7BB98 /* 指针数组.c in Sources */,
+				8547965D1F01E81500CBCBD7 /* other_二级指针运用_合并并排序字符串.c in Sources */,
 				854892C81D81065E0000897F /* 字符串基本操作.c in Sources */,
+				85FADCB71DA0FED900469CEC /* 结构体包含1级2级指针.c in Sources */,
+				858448E81EAB39C300B7BB98 /* 去前后空格函数.c in Sources */,
+				85078E671F0DCB4000CECE8E /* other_08_链表基础.c in Sources */,
+				85282C491ECECC430055C45D /* other_03.c in Sources */,
+				859810051EB9AF1F00EC1ADC /* other_01.c in Sources */,
 				85FADCAF1DA0915B00469CEC /* 字符串的出现次数.c in Sources */,
 				85FADCB11DA0A9C800469CEC /* 去除字符串前后的空格.c in Sources */,
+				85B7BD5A1F009D87002596C2 /* other_结构体.c in Sources */,
+				85880F971EBAC25F00FBBB1C /* negate.c in Sources */,
 				85FADCB31DA0DAC200469CEC /* 字符串和数组的属性.c in Sources */,
+				85078E6B1F0DD9B300CECE8E /* timer_for_windows.c in Sources */,
+				85263E3B1DB049E80055559D /* MySocketClient.c in Sources */,
+				8530C2B91EB5A13D005A7B9E /* 01_练习.c in Sources */,
+				85980FFE1EB96DF000EC1ADC /* 02_问题.c in Sources */,
+				85FADCB91DA5CFA300469CEC /* 配置文件读写.c in Sources */,
+				851B7B7E1EBC0AD40007B731 /* other_02.c in Sources */,
 				85FADCB51DA0DE5900469CEC /* 结构体类型定义以及变量定义.c in Sources */,
+				8581A3F71DAF0256009CAB6E /* SocketClient.c in Sources */,
+				85880F8E1EBAC1B600FBBB1C /* 02_练习.c in Sources */,
+				858448E41EAAF60100B7BB98 /* sort.c in Sources */,
+				85078E6D1F0DDB7900CECE8E /* timer_for_linux.c in Sources */,
 				85FEA4A61D90CEAB009A7361 /* 指针形参修改实参值.c in Sources */,
+				85880F911EBAC1DD00FBBB1C /* increment.c in Sources */,
+				8531430F1F033C2B00AC275B /* other_文件基本操作.c in Sources */,
 				854892BE1D8103B90000897F /* 字符串复制方法.c in Sources */,
+				85B3D74A1DAB9C1700019964 /* 测试.c in Sources */,
 				855E3AE61D94C5980008BB18 /* 字符串数组的拼接和排序.c in Sources */,
+				8556E3BC1F0491F0007965FE /* other_配置文件读写.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

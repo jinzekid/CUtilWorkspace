@@ -7,6 +7,7 @@
 //
 
 #include <stdio.h>
+#include <string.h>
 
 int main00(int argc, const char *argv[]) {
   

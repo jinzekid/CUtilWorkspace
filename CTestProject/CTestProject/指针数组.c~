@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+char* str_pj(char* x, char* y){
+  char buf[80];
+  char *ret = buf;
+
+  while(*ret++=*x++);
+  ret--;
+  while(*ret++=*y++);
+  ret = buf;
+
+  return ret;
+}
+
+int main(int argc, const char *argv[]){
+
+  char* x = "abc";
+  char* y = "def";
+
+  char* ret = str_pj(x, y);
+  printf("ret string=%s\n", ret);
+
+  printf("Hello world!\n");
+  return 0;
+}
